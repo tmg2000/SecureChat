@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Tor Messenger</string>
+    
+    <!-- Main Activity -->
+    <string name="title_friends">Friends</string>
+    <string name="title_settings">Settings</string>
+    <string name="connect_to_tor">Connect to Tor</string>
+    <string name="disconnect_from_tor">Disconnect from Tor</string>
+    <string name="tor_status_connected">Connected to Tor</string>
+    <string name="tor_status_disconnected">Disconnected from Tor</string>
+    <string name="tor_status_connecting">Connecting to Tor...</string>
+    <string name="your_onion_id">Your Onion ID</string>
+    <string name="share_id">Share ID</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="no_friends">No friends added yet</string>
+    
+    <!-- Add Friend Activity -->
+    <string name="add_friend_title">Add Friend</string>
+    <string name="friend_name">Friend Name</string>
+    <string name="friend_onion_id">Friend\'s Onion ID</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="add_friend_button">Add Friend</string>
+    <string name="invalid_onion_address">Invalid onion address</string>
+    <string name="friend_added_successfully">Friend added successfully</string>
+    <string name="friend_already_exists">Friend already exists</string>
+    
+    <!-- Chat Activity -->
+    <string name="type_message">Type a message...</string>
+    <string name="send">Send</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="last_seen">Last seen: %s</string>
+    <string name="message_delivered">Delivered</string>
+    <string name="message_pending">Pending</string>
+    <string name="message_failed">Failed</string>
+    
+    <!-- Share ID Activity -->
+    <string name="share_your_id">Share Your ID</string>
+    <string name="qr_code_description">QR Code for your Onion ID</string>
+    <string name="copy_id">Copy ID</string>
+    <string name="share_via">Share via...</string>
+    <string name="id_copied">ID copied to clipboard</string>
+    
+    <!-- QR Scan Activity -->
+    <string name="scan_friend_qr">Scan Friend\'s QR Code</string>
+    <string name="qr_scan_instruction">Point camera at QR code</string>
+    <string name="invalid_qr_code">Invalid QR code</string>
+    
+    <!-- Errors and Messages -->
+    <string name="error_tor_not_available">Tor is not available</string>
+    <string name="error_orbot_not_installed">Orbot is not installed. Please install Orbot to use Tor.</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_message_send_failed">Failed to send message</string>
+    <string name="error_camera_permission">Camera permission required for QR scanning</string>
+    
+    <!-- Notifications -->
+    <string name="new_message_notification">New message from %s</string>
+    <string name="tor_connected_notification">Connected to Tor network</string>
+    <string name="tor_disconnected_notification">Disconnected from Tor network</string>
+    
+    <!-- Menu -->
+    <string name="menu_delete">Delete</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    
+    <!-- Chat Activity -->
+    <string name="type_message">Type a message...</string>
+    <string name="send">Send</string>
+    <string name="error_message_send_failed">Failed to send message</string>
+    
+    <!-- Share ID Activity -->
+    <string name="share_your_id">Share Your ID</string>
+    <string name="your_onion_id">Your Onion ID</string>
+    <string name="qr_code_description">QR Code for sharing your Onion ID</string>
+    <string name="copy_id">Copy ID</string>
+    <string name="share_via">Share via...</string>
+    <string name="id_copied">ID copied to clipboard</string>
+    
+    <!-- QR Scan Activity -->
+    <string name="scan_friend_qr">Scan Friend\'s QR Code</string>
+    <string name="qr_scan_instruction">Point your camera at a QR code to scan</string>
+    <string name="invalid_qr_code">Invalid QR code format</string>
+    <string name="error_camera_permission">Camera permission is required to scan QR codes</string>
+    
+    <!-- Message colors -->
+    <string name="online">Online</string>
+    <string name="last_seen">Last seen %1$s</string>
+    
+    <!-- Dialogs -->
+    <string name="confirm_delete_friend">Delete this friend?</string>
+    <string name="confirm_disconnect_tor">Disconnect from Tor?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>
